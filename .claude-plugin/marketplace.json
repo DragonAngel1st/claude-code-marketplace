@@ -1,23 +1,26 @@
 {
-  "name": "ClaudeCodePydanticSubagentFactory",
-  "source": "https://github.com/DragonAngel1st/ClaudeCodePydanticSubagentFactory_plugin.git",
-  "description": "Generates Pydantic-based sub-agents for Claude Code workflows, enabling dynamic model creation and runtime schema enforcement.",
-  "version": "1.0.0",
-  "author": {
+  "name": "dragonangel1st-marketplace",
+  "owner": {
     "name": "Patrick Miron",
-    "email": "youremail@example.com"
+    "email": "patrick.miron@example.com",
+    "url": "https://github.com/DragonAngel1st"
   },
-  "keywords": [
-    "pydantic",
-    "subagent",
-    "schema",
-    "code-generation",
-    "Claude Code"
-  ],
-  "category": "development",
-  "tags": [
-    "model-factory",
-    "schema-validation",
-    "agent-workflow"
+  "metadata": {
+    "description": "Marketplace of Claude Code plugins from DragonAngel1st",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ClaudeCodePydanticSubagentFactory",
+      "description": "Generates Pydantic-based sub-agents for Claude Code workflows",
+      "version": "1.0.0",
+      "author": {
+        "name": "Patrick Miron"
+      },
+      "source": "https://github.com/DragonAngel1st/ClaudeCodePydanticSubagentFactory_plugin.git",
+      "category": "development",
+      "tags": ["pydantic","subagent","schema","agent-factory"]
+    }
   ]
 }
+
