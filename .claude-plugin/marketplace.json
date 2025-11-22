@@ -1,15 +1,21 @@
 {
-  "name": "claudecode-pydantic-subagent-factory",
-  "source": {
-    "source": "github",
-    "repo": "DragonAngel1st/ClaudeCodePydanticSubagentFactory_plugin"
+  "name": "dragonangel1st-marketplace",
+  "owner": {
+    "name": "Patrick Miron",
+    "email": "admin@dragonangel.com"
   },
-  "description": "Generates Pydantic-based sub-agents for Claude Code workflows",
-  "version": "1.0.0",
-  "author": {
-    "name": "Patrick Miron"
-  },
-  "category": "development",
-  "tags": ["pydantic", "subagent", "schema", "agent-factory"]
+  "plugins": [
+    {
+      "name": "claudecode-pydantic-subagent-factory",
+      "source": {
+        "source": "github",
+        "repo": "DragonAngel1st/ClaudeCodePydanticSubagentFactory_plugin"
+      },
+      "description": "Generates Pydantic-based sub-agents for Claude Code workflows",
+      "version": "1.0.0",
+      "author": {
+        "name": "Patrick Miron"
+      }
+    }
+  ]
 }
-
