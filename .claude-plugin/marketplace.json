@@ -9,7 +9,7 @@
       "name": "claudecode-pydantic-subagent-factory",
       "source": {
         "source": "github",
-        "repo": "DragonAngel1st/ClaudeCodePydanticSubagentFactory_plugin"
+        "repo": "https://github.com/DragonAngel1st/ClaudeCodePydanticSubagentFactory_plugin"
       },
       "description": "Generates Pydantic-based sub-agents for Claude Code workflows",
       "version": "1.2.0",
