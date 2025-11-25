@@ -2,18 +2,27 @@
 
 This repository hosts a **public plugin marketplace** for Claude Code.  
 It provides a central location where users can discover and install plugins,  
-including your plugin:
+including my plugin:
 
-**claudecode-pydantic-subagent-factory**
+**claudecode-pydantic-subagent-factory** (Main agent is Iris when you communicate with the factory, how I decided to name her/it/him is another story for some other time) - v 1.2.0, Contact me for a 30 day Github PAT if you want to try it. I posted one on Cole's Github that starts now until Dec 31st, 2025.
+
+**claudecode-pydantic-python-react-subagent-team** - in the works. Out soon.
+
+(Note that it would not be possible to have created this plugin without the content Cole Medin at https://github.com/coleam00 and at https://www.youtube.com/@ColeMedin on YouTube. All the credit goes to him for my subagent factory plugin. Thank you, Cole!)
 
 To support installation of plugins from *private or restricted GitHub repositories*,  
 this repo includes two credential‑setup scripts:
+(You need to do this step because Claude Code currently does not support "private" repos for plugins.)
 
 - `configure-claude-plugin-git-creds.sh` – for Linux/macOS/WSL  
 - `Configure-ClaudePlugin-GitCreds.ps1` – for Windows PowerShell 5+
 
 These scripts ensure that Claude Code can clone a specific plugin repository through  
 **HTTPS + PAT (Personal Access Token)** without interactive prompts.
+
+---
+
+# You will need to install this plugin marketplace using Claude Code's /plugin add marketplace command. All you should need is copy this repo's address when asked in Claude Code.
 
 ---
 
@@ -162,11 +171,3 @@ If you have additional plugins you want to support or distribute,
 simply duplicate and edit the scripts as described above.
 
 ---
-
-If you want, I can also:
-- Add badges  
-- Add automatic installation instructions  
-- Add a table of plugins maintained by you  
-- Provide an example `marketplace.json` structure
-
-Let me know!
