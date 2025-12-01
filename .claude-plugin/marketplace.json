@@ -16,6 +16,18 @@
       "author": {
         "name": "Patrick Miron"
       }
+    },
+        {
+      "name": "claudecode-python-react-workflot-agents",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/DragonAngel1st/ClaudeCode_PythonReact_WorkflowAgents.git"
+      },
+      "description": "Python Backend with React Frontend Agent Team",
+      "version": "1.0.0",
+      "author": {
+        "name": "Patrick Miron"
+      }
     }
   ]
 }
