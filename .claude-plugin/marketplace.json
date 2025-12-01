@@ -18,7 +18,7 @@
       }
     },
     {
-      "name": "claudecode-python-react-workflot-agents",
+      "name": "claudecode-python-react-workflow-agents",
       "source": {
         "source": "url",
         "url": "https://github.com/DragonAngel1st/ClaudeCode_PythonReact_WorkflowAgents.git"
